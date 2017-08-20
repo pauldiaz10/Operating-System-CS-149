@@ -1,0 +1,517 @@
+n = 10 sellers
+
+
+
+0:27 L4 serve with Customer 46
+0:27 Customer 46 buy ticket successfully and leave L4 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110   X    X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008   X    X    X    X    X    X    X  
+  X  L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:27 Customer 95 arrives M3 and waits.
+0:27 L1 serve with Customer 31
+0:27 Customer 31 buy ticket successfully and leave L1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110   X    X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008   X    X    X    X    X    X    X  
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:27 Customer 121have wait13 leaveL6 Queue  because of impatient
+0:27 Customer 20have wait13 leaveL6 Queue  because of impatient
+0:27 Customer 75have wait13 leaveL6 Queue  because of impatient
+0:27 L6 serve with Customer 167
+0:27 Customer 167 buy ticket successfully and leave L6 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110   X    X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008   X    X    X    X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:27 Customer 129 arrives M2 and waits.
+0:27 M1 serve with Customer 152
+0:27 Customer 152 buy ticket successfully and leave M1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110   X    X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152   X    X    X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:27 H1 serve with Customer 52
+0:27 Customer 52 buy ticket successfully and leave H1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052   X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152   X    X    X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:28 Customer 104 arrives M3 and waits.
+0:28 Customer 133 arrives H1 and waits.
+0:28 Customer 136 arrives H1 and waits.
+0:28 Customer 254 arrives M3 and waits.
+0:28 M2 serve with Customer 174
+0:28 Customer 174 buy ticket successfully and leave M2 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052   X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174   X    X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:29 Customer 96 arrives H1 and leave. Queue size: 10
+0:29 Customer 118 arrives M3 and waits.
+0:29 Customer 184 arrives H1 and leave. Queue size: 10
+0:29 Customer 216 arrives L6 and waits.
+0:29 Customer 228 arrives M3 and waits.
+0:29 Customer 217 arrives L1 and waits.
+0:29 M1 serve with Customer 98
+0:29 Customer 98 buy ticket successfully and leave M1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052   X  
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098   X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:29 H1 serve with Customer 114
+0:29 Customer 114 buy ticket successfully and leave H1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098   X    X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:30 Customer 58 arrives L3 and waits.
+0:30 M3 serve with Customer 139
+0:30 Customer 139 buy ticket successfully and leave M3 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+  X    X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139   X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:30 Customer 99 arrives H1 and waits.
+0:30 Customer 262 arrives H1 and leave. Queue size: 10
+0:30 Customer 173have wait11 leaveH1 Queue  because of impatient
+0:30 H1 serve with Customer 24
+0:30 Customer 24 buy ticket successfully and leave H1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024   X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139   X    X  L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:30 Customer 291 arrives M2 and waits.
+0:30 Customer 4have wait12 leaveL3 Queue  because of impatient
+0:30 Customer 238have wait12 leaveL3 Queue  because of impatient
+0:30 Customer 203have wait12 leaveL3 Queue  because of impatient
+0:30 L3 serve with Customer 58
+0:30 Customer 58 buy ticket successfully and leave L3 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024   X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139   X  L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:30 L2 serve with Customer 112
+0:30 Customer 112 buy ticket successfully and leave L2 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024   X    X    X    X    X    X    X    X    X  
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 Customer 76 arrives H1 and waits.
+0:31 Customer 64 arrives L3 and waits.
+0:31 Customer 164 arrives L4 and waits.
+0:31 L4 serve with Customer 164
+0:31 Customer 164 buy ticket successfully and leave L4 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024   X    X    X    X    X    X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 Customer 157have wait14 leaveL5 Queue  because of impatient
+0:31 Customer 263have wait14 leaveL5 Queue  because of impatient
+0:31 Customer 195 arrives M1 and waits.
+0:31 M1 serve with Customer 215
+0:31 Customer 215 buy ticket successfully and leave M1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215   X    X    X    X    X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 Customer 120have wait11 leaveH1 Queue  because of impatient
+0:31 H1 serve with Customer 119
+0:31 Customer 119 buy ticket successfully and leave H1 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119   X    X    X    X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 M2 serve with Customer 67
+0:31 Customer 67 buy ticket successfully and leave M2 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067   X    X    X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 M2 serve with Customer 129
+0:31 Customer 129 buy ticket successfully and leave M2 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129   X    X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:31 M2 serve with Customer 291
+0:31 Customer 291 buy ticket successfully and leave M2 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129 M2291   X    X    X  L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:32 Customer 27 arrives M3 and waits.
+0:32 Customer 71 arrives L5 and waits.
+0:32 L5 serve with Customer 71
+0:32 Customer 71 buy ticket successfully and leave L5 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129 M2291   X    X  L5071 L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:32 Customer 25 arrives L2 and waits.
+0:33 Customer 39 arrives M2 and waits.
+0:33 M3 serve with Customer 271
+0:33 Customer 271 buy ticket successfully and leave M3 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129 M2291 M3271   X  L5071 L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:33 M3 serve with Customer 272
+0:33 Customer 272 buy ticket successfully and leave M3 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129 M2291 M3271 M3272 L5071 L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:33 Customer 65have wait13 leaveL6 Queue  because of impatient
+0:33 Customer 222have wait13 leaveL6 Queue  because of impatient
+0:33 Customer 188have wait13 leaveL6 Queue  because of impatient
+0:33 L6 serve with Customer 216
+0:33 Customer 216 cannot buy ticket and leave L6 queue! :D
+Seat chart:
+
+H1194 H1023 H1131 H1266 H1198 H1140 H1156 H1165 H1168 H1292 
+H1219 H1220 H1061 H1066 H1189 H1000 H1042 H1110 H1052 H1114 
+H1024 M1215 H1119 M2067 M2129 M2291 M3271 M3272 L5071 L4164 
+M2251 M1041 M1093 M1190 M1192 M3274 M1200 M1050 M2101 M3079 
+M3161 M1179 M2282 M1209 M2246 M3054 M3259 M1270 M1218 M3056 
+M2290 M1142 M2202 M3070 M1205 M2252 M3077 M1267 M2230 M3158 
+M1132 M2275 M3008 M1152 M2174 M1098 M3139 L2112 L3058 L6167 
+L1031 L4046 L5086 L2260 L3045 L1235 L5005 L1111 L6092 L3088 
+L5162 L2109 L6035 L3229 L5072 L2001 L2247 L1241 L6281 L4178 
+L2175 L1294 L1225 L3116 L5197 L6237 L4047 L1122 L1087 L2057 
+0:33 Customer 236arrive and leave because all tickets are sold out!
+0:33 Customer 144have wait12 leaveH1 Queue  because of impatient
+0:34 Customer 80arrive and leave because all tickets are sold out!
+0:34 Customer 17arrive and leave because all tickets are sold out!
+0:34 Customer 10arrive and leave because all tickets are sold out!
+0:34 Customer 187arrive and leave because all tickets are sold out!
+0:34 Customer 248arrive and leave because all tickets are sold out!
+0:35 Customer 9arrive and leave because all tickets are sold out!
+0:35 Customer 149arrive and leave because all tickets are sold out!
+0:35 Customer 170arrive and leave because all tickets are sold out!
+0:35 Customer 172arrive and leave because all tickets are sold out!
+0:35 Customer 196arrive and leave because all tickets are sold out!
+0:35 Customer 265arrive and leave because all tickets are sold out!
+0:36 Customer 26arrive and leave because all tickets are sold out!
+0:36 Customer 30arrive and leave because all tickets are sold out!
+0:36 Customer 257have wait12 leaveM3 Queue  because of impatient
+0:36 Customer 130arrive and leave because all tickets are sold out!
+0:37 Customer 91arrive and leave because all tickets are sold out!
+0:37 Customer 103arrive and leave because all tickets are sold out!
+0:37 Customer 113arrive and leave because all tickets are sold out!
+0:37 Customer 163arrive and leave because all tickets are sold out!
+0:37 Customer 243arrive and leave because all tickets are sold out!
+0:37 Customer 255arrive and leave because all tickets are sold out!
+0:37 Customer 279arrive and leave because all tickets are sold out!
+0:37 Customer 3have wait12 leaveL2 Queue  because of impatient
+0:38 Customer 7arrive and leave because all tickets are sold out!
+0:38 Customer 82arrive and leave because all tickets are sold out!
+0:38 Customer 126arrive and leave because all tickets are sold out!
+0:38 Customer 141arrive and leave because all tickets are sold out!
+0:38 Customer 169arrive and leave because all tickets are sold out!
+0:38 Customer 258arrive and leave because all tickets are sold out!
+0:38 Customer 283arrive and leave because all tickets are sold out!
+0:38 Customer 284arrive and leave because all tickets are sold out!
+0:39 Customer 60arrive and leave because all tickets are sold out!
+0:39 Customer 32arrive and leave because all tickets are sold out!
+0:39 Customer 21arrive and leave because all tickets are sold out!
+0:39 Customer 14arrive and leave because all tickets are sold out!
+0:39 Customer 16arrive and leave because all tickets are sold out!
+0:39 Customer 83arrive and leave because all tickets are sold out!
+0:39 Customer 124arrive and leave because all tickets are sold out!
+0:39 Customer 244arrive and leave because all tickets are sold out!
+0:40 Customer 13arrive and leave because all tickets are sold out!
+0:40 Customer 49arrive and leave because all tickets are sold out!
+0:40 Customer 107arrive and leave because all tickets are sold out!
+0:40 Customer 123arrive and leave because all tickets are sold out!
+0:40 Customer 211arrive and leave because all tickets are sold out!
+0:40 Customer 213arrive and leave because all tickets are sold out!
+0:40 Customer 227arrive and leave because all tickets are sold out!
+0:40 Customer 277arrive and leave because all tickets are sold out!
+0:41 Customer 145arrive and leave because all tickets are sold out!
+0:41 Customer 143arrive and leave because all tickets are sold out!
+0:41 Customer 297arrive and leave because all tickets are sold out!
+0:42 Customer 44arrive and leave because all tickets are sold out!
+0:42 Customer 11arrive and leave because all tickets are sold out!
+0:42 Customer 155arrive and leave because all tickets are sold out!
+0:42 Customer 185arrive and leave because all tickets are sold out!
+0:42 Customer 234arrive and leave because all tickets are sold out!
+0:42 Customer 285arrive and leave because all tickets are sold out!
+0:43 Customer 37arrive and leave because all tickets are sold out!
+0:43 Customer 18arrive and leave because all tickets are sold out!
+0:43 Customer 97arrive and leave because all tickets are sold out!
+0:43 Customer 147arrive and leave because all tickets are sold out!
+0:43 Customer 226arrive and leave because all tickets are sold out!
+0:43 Customer 287arrive and leave because all tickets are sold out!
+0:44 Customer 171arrive and leave because all tickets are sold out!
+0:44 Customer 181arrive and leave because all tickets are sold out!
+0:44 Customer 210arrive and leave because all tickets are sold out!
+0:44 Customer 224arrive and leave because all tickets are sold out!
+0:44 Customer 250arrive and leave because all tickets are sold out!
+0:44 Customer 264arrive and leave because all tickets are sold out!
+0:44 Customer 268arrive and leave because all tickets are sold out!
+0:44 Customer 273arrive and leave because all tickets are sold out!
+0:45 Customer 106arrive and leave because all tickets are sold out!
+0:45 Customer 127arrive and leave because all tickets are sold out!
+0:45 Customer 159arrive and leave because all tickets are sold out!
+0:45 Customer 160arrive and leave because all tickets are sold out!
+0:45 Customer 240arrive and leave because all tickets are sold out!
+0:45 Customer 249arrive and leave because all tickets are sold out!
+0:46 Customer 2arrive and leave because all tickets are sold out!
+0:46 Customer 125arrive and leave because all tickets are sold out!
+0:46 Customer 153arrive and leave because all tickets are sold out!
+0:46 Customer 154arrive and leave because all tickets are sold out!
+0:46 Customer 180arrive and leave because all tickets are sold out!
+0:46 Customer 261arrive and leave because all tickets are sold out!
+0:46 Customer 280arrive and leave because all tickets are sold out!
+0:47 Customer 191arrive and leave because all tickets are sold out!
+0:47 Customer 233arrive and leave because all tickets are sold out!
+0:47 Customer 221arrive and leave because all tickets are sold out!
+0:47 Customer 269arrive and leave because all tickets are sold out!
+0:48 Customer 73arrive and leave because all tickets are sold out!
+0:48 Customer 242arrive and leave because all tickets are sold out!
+0:49 Customer 34arrive and leave because all tickets are sold out!
+0:49 Customer 40arrive and leave because all tickets are sold out!
+0:49 Customer 148arrive and leave because all tickets are sold out!
+0:49 Customer 177arrive and leave because all tickets are sold out!
+0:49 Customer 296arrive and leave because all tickets are sold out!
+0:50 Customer 89arrive and leave because all tickets are sold out!
+0:50 Customer 151arrive and leave because all tickets are sold out!
+0:50 Customer 231arrive and leave because all tickets are sold out!
+0:50 Customer 245arrive and leave because all tickets are sold out!
+0:50 Customer 293arrive and leave because all tickets are sold out!
+0:52 Customer 78arrive and leave because all tickets are sold out!
+0:52 Customer 19arrive and leave because all tickets are sold out!
+0:52 Customer 28arrive and leave because all tickets are sold out!
+0:52 Customer 36arrive and leave because all tickets are sold out!
+0:52 Customer 115arrive and leave because all tickets are sold out!
+0:52 Customer 182arrive and leave because all tickets are sold out!
+0:52 Customer 212arrive and leave because all tickets are sold out!
+0:53 Customer 69arrive and leave because all tickets are sold out!
+0:53 Customer 276arrive and leave because all tickets are sold out!
+0:54 Customer 68arrive and leave because all tickets are sold out!
+0:54 Customer 22arrive and leave because all tickets are sold out!
+0:54 Customer 74arrive and leave because all tickets are sold out!
+0:54 Customer 253arrive and leave because all tickets are sold out!
+0:54 Customer 299arrive and leave because all tickets are sold out!
+0:55 Customer 102arrive and leave because all tickets are sold out!
+0:55 Customer 208arrive and leave because all tickets are sold out!
+0:55 Customer 289arrive and leave because all tickets are sold out!
+0:55 Customer 298arrive and leave because all tickets are sold out!
+0:56 Customer 100arrive and leave because all tickets are sold out!
+0:56 Customer 105arrive and leave because all tickets are sold out!
+0:56 Customer 117arrive and leave because all tickets are sold out!
+0:56 Customer 128arrive and leave because all tickets are sold out!
+0:56 Customer 146arrive and leave because all tickets are sold out!
+0:56 Customer 183arrive and leave because all tickets are sold out!
+0:57 Customer 48arrive and leave because all tickets are sold out!
+0:57 Customer 134arrive and leave because all tickets are sold out!
+0:57 Customer 135arrive and leave because all tickets are sold out!
+0:57 Customer 166arrive and leave because all tickets are sold out!
+0:57 Customer 186arrive and leave because all tickets are sold out!
+0:57 Customer 232arrive and leave because all tickets are sold out!
+0:57 Customer 278arrive and leave because all tickets are sold out!
+0:58 Customer 15arrive and leave because all tickets are sold out!
+0:58 Customer 137arrive and leave because all tickets are sold out!
+0:58 Customer 204arrive and leave because all tickets are sold out!
+0:58 Customer 256arrive and leave because all tickets are sold out!
+0:59 Customer 59arrive and leave because all tickets are sold out!
+0:59 Customer 62arrive and leave because all tickets are sold out!
+0:59 Customer 53arrive and leave because all tickets are sold out!
+0:59 Customer 51arrive and leave because all tickets are sold out!
+1:0 From H1, Customer 38 and leave.
+1:0 From H1, Customer 6 and leave.
+1:0 From H1, Customer 133 and leave.
+1:0 From H1, Customer 136 and leave.
+1:0 From H1, Customer 99 and leave.
+1:0 From H1, Customer 76 and leave.
+1:0 From M1, Customer 195 and leave.
+1:0 From M2, Customer 39 and leave.
+1:0 From M3, Customer 95 and leave.
+1:0 From M3, Customer 104 and leave.
+1:0 From M3, Customer 254 and leave.
+1:0 From M3, Customer 118 and leave.
+1:0 From M3, Customer 228 and leave.
+1:0 From M3, Customer 27 and leave.
+1:0 From L1, Customer 217 and leave.
+1:0 From L2, Customer 25 and leave.
+1:0 From L3, Customer 64 and leave.
+
+
+Statistics
+Turn away: 200
+Impatient: 33
+Arrive: 300
+Buying sucessfully: 100
+Times Up:     1 
+ horace@debian:~$ ^C
+horace@debian:~$ 
+
