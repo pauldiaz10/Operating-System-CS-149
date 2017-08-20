@@ -1,0 +1,1086 @@
+Simulation #1
+
+Processes: 
+Process A  | Arrival Time: 0.6056011 | Expected Run: 9.640677 | Priority 4
+Process B  | Arrival Time: 0.8672813 | Expected Run: 6.3487797 | Priority 1
+Process C  | Arrival Time: 3.587303 | Expected Run: 6.6227856 | Priority 3
+Process D  | Arrival Time: 8.340959 | Expected Run: 5.622774 | Priority 2
+Process E  | Arrival Time: 8.924509 | Expected Run: 4.430485 | Priority 2
+Process F  | Arrival Time: 10.874265 | Expected Run: 5.23599 | Priority 3
+Process G  | Arrival Time: 13.821767 | Expected Run: 6.00613 | Priority 4
+Process H  | Arrival Time: 14.060247 | Expected Run: 4.86911 | Priority 3
+Process I  | Arrival Time: 15.342525 | Expected Run: 3.731036 | Priority 3
+Process J  | Arrival Time: 17.092234 | Expected Run: 5.53463 | Priority 3
+Process K  | Arrival Time: 20.421312 | Expected Run: 8.471992 | Priority 2
+Process L  | Arrival Time: 28.782488 | Expected Run: 0.6093388 | Priority 1
+Process M  | Arrival Time: 33.750584 | Expected Run: 2.7313166 | Priority 1
+Process N  | Arrival Time: 36.531254 | Expected Run: 8.658184 | Priority 3
+Process O  | Arrival Time: 37.0903 | Expected Run: 4.687163 | Priority 2
+Process P  | Arrival Time: 37.205013 | Expected Run: 2.785804 | Priority 3
+Process Q  | Arrival Time: 38.337795 | Expected Run: 2.785927 | Priority 1
+Process R  | Arrival Time: 39.32026 | Expected Run: 3.5404284 | Priority 2
+Process S  | Arrival Time: 42.342308 | Expected Run: 9.991916 | Priority 1
+Process T  | Arrival Time: 42.449635 | Expected Run: 3.1501198 | Priority 3
+Process U  | Arrival Time: 42.76868 | Expected Run: 2.4082425 | Priority 4
+Process V  | Arrival Time: 45.312317 | Expected Run: 8.638252 | Priority 4
+Process W  | Arrival Time: 48.967323 | Expected Run: 0.25230536 | Priority 2
+Process X  | Arrival Time: 52.05335 | Expected Run: 2.664022 | Priority 2
+Process Y  | Arrival Time: 53.49931 | Expected Run: 9.740956 | Priority 1
+Process Z  | Arrival Time: 54.85316 | Expected Run: 9.11841 | Priority 2
+Process AA  | Arrival Time: 58.03859 | Expected Run: 9.625927 | Priority 2
+Process AB  | Arrival Time: 59.264618 | Expected Run: 2.9917247 | Priority 4
+Process AC  | Arrival Time: 60.448563 | Expected Run: 9.553815 | Priority 2
+Process AD  | Arrival Time: 61.097443 | Expected Run: 0.37839168 | Priority 3
+Process AE  | Arrival Time: 61.713017 | Expected Run: 1.9286002 | Priority 1
+Process AF  | Arrival Time: 62.416653 | Expected Run: 5.5727983 | Priority 3
+Process AG  | Arrival Time: 64.86219 | Expected Run: 1.2864065 | Priority 3
+Process AH  | Arrival Time: 67.31361 | Expected Run: 2.872016 | Priority 3
+Process AI  | Arrival Time: 67.66912 | Expected Run: 4.91397 | Priority 2
+Process AJ  | Arrival Time: 68.79985 | Expected Run: 8.071755 | Priority 1
+Process AK  | Arrival Time: 69.20165 | Expected Run: 2.125892 | Priority 2
+Process AL  | Arrival Time: 69.2598 | Expected Run: 1.8262739 | Priority 3
+Process AM  | Arrival Time: 70.069046 | Expected Run: 2.7324412 | Priority 1
+Process AN  | Arrival Time: 71.61379 | Expected Run: 5.14398 | Priority 4
+Process AO  | Arrival Time: 72.35694 | Expected Run: 4.1598 | Priority 1
+Process AP  | Arrival Time: 75.40579 | Expected Run: 6.277328 | Priority 4
+Process AQ  | Arrival Time: 76.28305 | Expected Run: 6.632938 | Priority 1
+Process AR  | Arrival Time: 78.29427 | Expected Run: 8.452384 | Priority 2
+Process AS  | Arrival Time: 81.574104 | Expected Run: 1.3243451 | Priority 3
+Process AT  | Arrival Time: 81.749435 | Expected Run: 5.4436426 | Priority 3
+Process AU  | Arrival Time: 84.3731 | Expected Run: 0.33183885 | Priority 3
+Process AV  | Arrival Time: 90.14606 | Expected Run: 3.111936 | Priority 4
+Process AW  | Arrival Time: 97.32722 | Expected Run: 8.055824 | Priority 4
+Process AX  | Arrival Time: 98.8991 | Expected Run: 6.341008 | Priority 4
+
+First Come First Served Algorithm
+
+Timechart:
+- A A A A A A A A A 
+A B B B B B B B C C 
+C C C C C D D D D D 
+D E E E E E F F F F 
+F F G G G G G G G H 
+H H H H I I I I J J 
+J J J J K K K K K K 
+K K K L M M M N N N 
+N N N N N N O O O O 
+O P P P Q Q Q R R 
+R 
+
+Average Turnaround Time: 38.492035
+Average Waiting Time: 32.84498
+Average Response Time: 5.647059
+Total Throughput: 17.0
+
+
+Shortest Job First Algorithm
+
+Timechart:
+A A A A A A A A A A B B B B B B B C C C C C C C D D D D D D E E E E E F F F F F F G G G G G G G H H H H H I I I I J J J J J J K K K K K K K K K L M M M N N N N N N N N N O O O O O P P P Q Q Q R R R 
+
+Average Turnaround Time: 37.492035
+Average Waiting Time: 32.84498
+Average Response Time: 4.647059
+Total Throughput: 17.0
+
+
+Shortest Remaining Time Algorithm
+
+Timechart:
+- B B B B B B B C E 
+E E E E F H I I I I 
+H H H H F F F F F L 
+J J J J M M M J P P 
+P Q Q U U U Q T T W 
+T T R X X X R R R O 
+AB AB AD AE AE AG AG AB AH AH 
+AL AL AK AK AK AM AM AM AH AO 
+AO AO AS AS AO AU AO O O O 
+O AV AV AV AV AI AI AI AI AI 
+
+Average Turnaround Time: 9.046609
+Average Waiting Time: 3.4751801
+Average Response Time: 5.571429
+Total Throughput: 28.0
+
+
+Round Robin Algorithm
+
+Timechart:
+time f 35 time s 2 is 33
+time f 41 time s 40 is 1
+time f 58 time s 13 is 45
+time f 64 time s 6 is 58
+time f 68 time s 24 is 44
+time f 70 time s 69 is 1
+time f 72 time s 1 is 71
+time f 80 time s 12 is 68
+time f 89 time s 88 is 1
+time f 93 time s 22 is 71
+time f 96 time s 46 is 50
+time f 99 time s 16 is 83
+time f 115 time s 61 is 54
+time f 116 time s 89 is 27
+time f 119 time s 93 is 26
+time f 125 time s 52 is 73
+time f 126 time s 74 is 52
+time f 127 time s 27 is 100
+time f 129 time s 54 is 75
+time f 132 time s 20 is 112
+time f 135 time s 84 is 51
+time f 141 time s 96 is 45
+time f 147 time s 56 is 91
+time f 150 time s 60 is 90
+time f 157 time s 51 is 106
+time f 166 time s 97 is 69
+time f 173 time s 31 is 142
+time f 182 time s 91 is 91
+time f 190 time s 65 is 125
+time f 195 time s 59 is 136
+time f 197 time s 49 is 148
+time f 199 time s 78 is 121
+time f 201 time s 86 is 115
+time f 202 time s 76 is 126
+time f 203 time s 82 is 121
+- A B A B A C B A C 
+B A D E C B F A D E 
+G C H B I F A J D E 
+G K C H B I F A J D 
+L E G K C H M I F N 
+A O P J Q D R E G S 
+T U K C H V M I F W 
+N A O P X J Y Q Z D 
+R G AA S AB T AC U AD AE 
+K AF H AG V M AH AI F N 
+O P X J Y Q Z R G AA 
+S AB T AC U AE K AF AG V 
+AH AI N O P X J Y Q Z 
+R G AA S AB T AC K AF V 
+AH AI N O Y Z R AA S T 
+AC K AF V AI N O Y Z AA 
+S AC K AF V AI N Y Z AA 
+S AC K AF V N Y Z AA S 
+AC AF V N Y Z AA S AC V 
+N Y Z AA S AC N Y Z AA 
+AC Y AA 
+
+Average Turnaround Time: 90.91356
+Average Waiting Time: 15.9992695
+Average Response Time: 74.91428
+Total Throughput: 35.0
+
+
+Highest Priority First (Non-Preemptive)
+
+Timechart:
+B B B B B B B C C C C C C C D D D D D D E E E E E K K K K K K K K K L M M M Q Q Q O O O O O S S S S S S S S S S Y Y Y Y Y Y Y Y Y Y AE AE AJ AJ AJ AJ AJ AJ AJ AJ AJ AM AM AM AO AO AO AO AO AQ AQ AQ AQ AQ AQ AQ R R R R W X X 
+
+Average Turnaround Time: 14.641466
+Average Waiting Time: 10.252575
+Average Response Time: 4.388889
+Total Throughput: 18.0
+
+
+Highest Priority First (Preemptive)
+
+Timechart:
+B B B B B B B C D E D E D E D E D E D C K K K K K K K K L K C F H M M M C O Q Q Q O S S S S S S S S S S O Y Y Y Y Y Y Y Y AE Y AE Y O R W AJ AJ AM AJ AM AO AJ AM AJ AO AQ AJ AO AQ AJ AO AQ AJ AO AJ AQ AQ AQ AQ O R X Z AA AC AI 
+
+Average Turnaround Time: 12.15337
+Average Waiting Time: 1.9033703
+Average Response Time: 10.25
+Total Throughput: 16.0
+
+
+Highest Priority First (Non-Preemptive, Aging)
+
+Timechart:
+B B B B B B B C C C C C C C D D D D D D E E E E E A A A A A A A A A A L M M M K K K K K K K K K F F F F F F H H H H H Q Q Q S S S S S S S S S S I I I I J J J J J J G G G G G G G O O O O O R R R R Y 
+
+Average Turnaround Time: 33.908134
+Average Waiting Time: 29.143427
+Average Response Time: 4.7647057
+Total Throughput: 17.0
+
+
+Highest Priority First (Preemptive, Aging)
+
+Timechart:
+B B B B B B B C D E D E D E D E D E A F A F A F A F A F A F A F A F A F A C C C C C C D K K K K K K K K K H I L H I J H I J H I H J J J J G M Q S G M Q S G M G Q G S G S G S S S S S S O R O R O R O 
+
+Average Turnaround Time: 36.012558
+Average Waiting Time: 21.790335
+Average Response Time: 14.222222
+Total Throughput: 18.0
+
+
+
+Simulation #2
+
+Processes: 
+Process A  | Arrival Time: 2.8352013 | Expected Run: 5.611323 | Priority 3
+Process B  | Arrival Time: 3.0208097 | Expected Run: 6.947388 | Priority 4
+Process C  | Arrival Time: 3.490831 | Expected Run: 1.3678205 | Priority 4
+Process D  | Arrival Time: 4.0556693 | Expected Run: 4.659716 | Priority 2
+Process E  | Arrival Time: 5.012095 | Expected Run: 1.3961681 | Priority 1
+Process F  | Arrival Time: 10.739608 | Expected Run: 5.884447 | Priority 2
+Process G  | Arrival Time: 15.827679 | Expected Run: 2.3065584 | Priority 3
+Process H  | Arrival Time: 19.81487 | Expected Run: 4.9378905 | Priority 2
+Process I  | Arrival Time: 23.02994 | Expected Run: 6.2047524 | Priority 3
+Process J  | Arrival Time: 23.594507 | Expected Run: 6.6663413 | Priority 3
+Process K  | Arrival Time: 25.058315 | Expected Run: 7.9144897 | Priority 4
+Process L  | Arrival Time: 25.113777 | Expected Run: 9.047022 | Priority 1
+Process M  | Arrival Time: 26.439722 | Expected Run: 9.058079 | Priority 1
+Process N  | Arrival Time: 33.10213 | Expected Run: 7.988678 | Priority 1
+Process O  | Arrival Time: 33.454754 | Expected Run: 1.0316762 | Priority 3
+Process P  | Arrival Time: 34.88649 | Expected Run: 9.937498 | Priority 3
+Process Q  | Arrival Time: 35.672863 | Expected Run: 3.9760873 | Priority 2
+Process R  | Arrival Time: 37.374397 | Expected Run: 2.8248172 | Priority 4
+Process S  | Arrival Time: 55.77766 | Expected Run: 1.0634441 | Priority 1
+Process T  | Arrival Time: 56.56267 | Expected Run: 9.56603 | Priority 1
+Process U  | Arrival Time: 57.644966 | Expected Run: 8.527306 | Priority 1
+Process V  | Arrival Time: 57.69419 | Expected Run: 9.209233 | Priority 3
+Process W  | Arrival Time: 60.410717 | Expected Run: 9.892103 | Priority 3
+Process X  | Arrival Time: 65.46919 | Expected Run: 7.352012 | Priority 3
+Process Y  | Arrival Time: 68.21054 | Expected Run: 7.9968057 | Priority 1
+Process Z  | Arrival Time: 71.53734 | Expected Run: 7.5510025 | Priority 2
+Process AA  | Arrival Time: 72.383545 | Expected Run: 9.024331 | Priority 2
+Process AB  | Arrival Time: 72.551094 | Expected Run: 7.3123555 | Priority 1
+Process AC  | Arrival Time: 73.18193 | Expected Run: 8.741785 | Priority 4
+Process AD  | Arrival Time: 73.78763 | Expected Run: 9.756045 | Priority 4
+Process AE  | Arrival Time: 78.53244 | Expected Run: 6.3388524 | Priority 1
+Process AF  | Arrival Time: 80.533554 | Expected Run: 5.366292 | Priority 1
+Process AG  | Arrival Time: 81.751015 | Expected Run: 1.1392709 | Priority 4
+Process AH  | Arrival Time: 83.19108 | Expected Run: 2.5487113 | Priority 3
+Process AI  | Arrival Time: 84.61341 | Expected Run: 0.42952493 | Priority 4
+Process AJ  | Arrival Time: 86.34947 | Expected Run: 9.400904 | Priority 1
+Process AK  | Arrival Time: 87.556305 | Expected Run: 4.283521 | Priority 1
+Process AL  | Arrival Time: 88.62149 | Expected Run: 1.1644509 | Priority 2
+Process AM  | Arrival Time: 89.01883 | Expected Run: 8.850917 | Priority 2
+Process AN  | Arrival Time: 89.67933 | Expected Run: 6.5535297 | Priority 1
+Process AO  | Arrival Time: 90.08542 | Expected Run: 2.8963711 | Priority 3
+Process AP  | Arrival Time: 90.98784 | Expected Run: 6.7007065 | Priority 3
+Process AQ  | Arrival Time: 92.3336 | Expected Run: 2.7415864 | Priority 3
+Process AR  | Arrival Time: 93.17507 | Expected Run: 9.473078 | Priority 1
+Process AS  | Arrival Time: 94.014755 | Expected Run: 3.665131 | Priority 3
+Process AT  | Arrival Time: 96.13595 | Expected Run: 9.275282 | Priority 4
+Process AU  | Arrival Time: 96.73571 | Expected Run: 0.518519 | Priority 2
+Process AV  | Arrival Time: 96.75314 | Expected Run: 5.6619577 | Priority 2
+Process AW  | Arrival Time: 97.29608 | Expected Run: 9.599848 | Priority 3
+Process AX  | Arrival Time: 97.75466 | Expected Run: 2.3587635 | Priority 1
+
+First Come First Served Algorithm
+
+Timechart:
+- - - A A A A A A B 
+B B B B B B C C D D 
+D D D E E F F F F F 
+F G G G H H H H H I 
+I I I I I I J J J J 
+J J J K K K K K K K 
+K L L L L L L L L L 
+L M M M M M M M M M 
+M N N N N N N N N O 
+O P P P P P P P P 
+P 
+
+Average Turnaround Time: 28.82734
+Average Waiting Time: 22.960672
+Average Response Time: 5.866667
+Total Throughput: 15.0
+
+
+Shortest Job First Algorithm
+
+Timechart:
+A A A A A A B B B B B B B C C D D D D D E E F F F F F F G G G H H H H H I I I I I I I J J J J J J J K K K K K K K K L L L L L L L L L L M M M M M M M M M M N N N N N N N N O O P P P P P P P P P 
+
+Average Turnaround Time: 27.827337
+Average Waiting Time: 22.960672
+Average Response Time: 4.866667
+Total Throughput: 15.0
+
+
+Shortest Remaining Time Algorithm
+
+Timechart:
+- - - A C C E E D D 
+D D D A A A G G G A 
+H H H H H A F F F F 
+F F I I O O Q Q R R 
+R Q Q I I I I I J J 
+J J J J J B S S B B 
+B B B B K K X X X X 
+X X X AB AB AB AB AB AB AE 
+AE AF AG AG AH AI AH AH AK AL 
+AL AO AO AQ AQ AQ AO AU AX AX 
+AX 
+
+Average Turnaround Time: 10.282397
+Average Waiting Time: 5.100579
+Average Response Time: 5.181818
+Total Throughput: 22.0
+
+
+Round Robin Algorithm
+
+Timechart:
+time f 12 time s 6 is 6
+time f 16 time s 10 is 6
+time f 23 time s 3 is 20
+time f 29 time s 8 is 21
+time f 36 time s 20 is 16
+time f 41 time s 5 is 36
+time f 57 time s 44 is 13
+time f 62 time s 16 is 46
+time f 66 time s 25 is 41
+time f 78 time s 50 is 28
+time f 84 time s 68 is 16
+time f 96 time s 47 is 49
+time f 135 time s 29 is 106
+time f 136 time s 30 is 106
+time f 154 time s 33 is 121
+time f 170 time s 43 is 127
+time f 173 time s 34 is 139
+time f 192 time s 46 is 146
+time f 195 time s 36 is 159
+time f 197 time s 80 is 117
+time f 208 time s 84 is 124
+time f 210 time s 71 is 139
+time f 211 time s 88 is 123
+time f 214 time s 91 is 123
+time f 218 time s 69 is 149
+time f 219 time s 72 is 147
+time f 221 time s 93 is 128
+time f 223 time s 76 is 147
+time f 224 time s 90 is 134
+time f 225 time s 94 is 131
+- - - A A B C A D B 
+E C A D B E F A D B 
+G F A D B H G F D I 
+J B H K L G M F I J 
+B H K N O L P Q M F 
+R I J H K N O L P Q 
+M F R I J H K N S T 
+L U V P Q M W R I J 
+X K N S Y T L U Z V 
+AA AB P AC AD Q M W I J 
+X K N Y T L U Z V AA 
+AB P AC AD M W I J X K 
+N Y T L U Z V AA AB P 
+AC AD M W I J X K N Y 
+T L U Z V AA AB P AC AD 
+M W X K N Y T L U Z 
+V AA AB P AC AD M W X N 
+Y T L U Z V AA AB P AC 
+AD M W X Y T U Z V AA 
+AB P AC AD M W X Y T U 
+Z V AA AB AC AD W Y T U 
+Z V AA AB AC AD W T V AA 
+AC AD W AA AD 
+
+Average Turnaround Time: 99.24217
+Average Waiting Time: 10.4421625
+Average Response Time: 88.8
+Total Throughput: 30.0
+
+
+Highest Priority First (Non-Preemptive)
+
+Timechart:
+A A A A A A E E D D D D D F F F F F F H H H H H L L L L L L L L L L M M M M M M M M M M N N N N N N N N Q Q Q Q S S T T T T T T T T T T U U U U U U U U U Y Y Y Y Y Y Y Y AB AB AB AB AB AB AB AB AE AE AE AE 
+
+Average Turnaround Time: 13.676224
+Average Waiting Time: 8.033366
+Average Response Time: 5.642857
+Total Throughput: 14.0
+
+
+Highest Priority First (Preemptive)
+
+Timechart:
+A A D E E D D D F D F F F F F A G H H H H H A L M L M L M L M N L M N L M N L M N L M N L M N L M N N Q Q S T U S T U T U T U T U T U Y T U Y AB T U Y AB AE T U T Y AB AE AF AJ AK Y AB AE AF AJ AK AN AR Y AB AE 
+
+Average Turnaround Time: 14.173681
+Average Waiting Time: 0.5736829
+Average Response Time: 13.6
+Total Throughput: 10.0
+
+
+Highest Priority First (Non-Preemptive, Aging)
+
+Timechart:
+A A A A A A E E D D D D D F F F F F F H H H H H L L L L L L L L L L M M M M M M M M M M N N N N N N N N G G G B B B B B B B C C Q Q Q Q I I I I I I I J J J J J J J O O P P P P P P P P P P K K K 
+
+Average Turnaround Time: 32.244316
+Average Waiting Time: 27.369316
+Average Response Time: 4.875
+Total Throughput: 16.0
+
+
+Highest Priority First (Preemptive, Aging)
+
+Timechart:
+A A D E E D D D F D F F F F A A A A F B C H B C B L M B L M B L M B L M B L M L M L M L M L M L M G G G H N H N H N H N N N N N I J Q I J Q I J Q I J Q I J K O P S I J K O I J K P S K P R T U Y 
+
+Average Turnaround Time: 32.751118
+Average Waiting Time: 19.251118
+Average Response Time: 13.5
+Total Throughput: 16.0
+
+
+
+Simulation #3
+
+Processes: 
+Process A  | Arrival Time: 0.71334666 | Expected Run: 8.909972 | Priority 4
+Process B  | Arrival Time: 1.3511053 | Expected Run: 4.3644133 | Priority 1
+Process C  | Arrival Time: 4.093349 | Expected Run: 1.4692727 | Priority 2
+Process D  | Arrival Time: 4.5480695 | Expected Run: 4.5889473 | Priority 3
+Process E  | Arrival Time: 4.734307 | Expected Run: 1.1180686 | Priority 3
+Process F  | Arrival Time: 5.225821 | Expected Run: 6.785195 | Priority 4
+Process G  | Arrival Time: 5.3262725 | Expected Run: 9.005129 | Priority 3
+Process H  | Arrival Time: 7.8887544 | Expected Run: 3.051371 | Priority 2
+Process I  | Arrival Time: 10.85404 | Expected Run: 1.2548405 | Priority 2
+Process J  | Arrival Time: 13.604772 | Expected Run: 6.040449 | Priority 3
+Process K  | Arrival Time: 13.606198 | Expected Run: 9.954056 | Priority 2
+Process L  | Arrival Time: 15.120626 | Expected Run: 9.111735 | Priority 4
+Process M  | Arrival Time: 15.685345 | Expected Run: 5.535978 | Priority 1
+Process N  | Arrival Time: 24.285719 | Expected Run: 1.9371147 | Priority 1
+Process O  | Arrival Time: 27.417347 | Expected Run: 1.931463 | Priority 2
+Process P  | Arrival Time: 28.36326 | Expected Run: 1.7754552 | Priority 2
+Process Q  | Arrival Time: 28.876675 | Expected Run: 6.949158 | Priority 1
+Process R  | Arrival Time: 30.360413 | Expected Run: 0.6034939 | Priority 2
+Process S  | Arrival Time: 31.283312 | Expected Run: 6.2124677 | Priority 3
+Process T  | Arrival Time: 33.0447 | Expected Run: 2.6740706 | Priority 2
+Process U  | Arrival Time: 33.72397 | Expected Run: 8.317429 | Priority 3
+Process V  | Arrival Time: 34.465313 | Expected Run: 8.422507 | Priority 2
+Process W  | Arrival Time: 35.51692 | Expected Run: 1.4595085 | Priority 1
+Process X  | Arrival Time: 39.308006 | Expected Run: 2.8093884 | Priority 1
+Process Y  | Arrival Time: 40.745106 | Expected Run: 1.4386108 | Priority 4
+Process Z  | Arrival Time: 42.134327 | Expected Run: 3.7358775 | Priority 2
+Process AA  | Arrival Time: 44.05705 | Expected Run: 2.397504 | Priority 1
+Process AB  | Arrival Time: 44.265724 | Expected Run: 0.7284999 | Priority 2
+Process AC  | Arrival Time: 44.5603 | Expected Run: 1.992188 | Priority 1
+Process AD  | Arrival Time: 46.240433 | Expected Run: 0.94134194 | Priority 4
+Process AE  | Arrival Time: 46.38884 | Expected Run: 1.7747098 | Priority 2
+Process AF  | Arrival Time: 46.7117 | Expected Run: 2.7267418 | Priority 2
+Process AG  | Arrival Time: 49.040012 | Expected Run: 1.4909216 | Priority 3
+Process AH  | Arrival Time: 50.597622 | Expected Run: 5.033526 | Priority 2
+Process AI  | Arrival Time: 53.040043 | Expected Run: 5.7595387 | Priority 2
+Process AJ  | Arrival Time: 57.60471 | Expected Run: 5.793945 | Priority 4
+Process AK  | Arrival Time: 60.346043 | Expected Run: 0.747174 | Priority 4
+Process AL  | Arrival Time: 65.37164 | Expected Run: 8.086068 | Priority 1
+Process AM  | Arrival Time: 66.87095 | Expected Run: 8.057779 | Priority 1
+Process AN  | Arrival Time: 69.56117 | Expected Run: 3.5793674 | Priority 2
+Process AO  | Arrival Time: 70.151474 | Expected Run: 9.422632 | Priority 1
+Process AP  | Arrival Time: 72.37468 | Expected Run: 0.80282116 | Priority 1
+Process AQ  | Arrival Time: 74.40119 | Expected Run: 1.651354 | Priority 2
+Process AR  | Arrival Time: 79.54109 | Expected Run: 2.0662618 | Priority 2
+Process AS  | Arrival Time: 80.203354 | Expected Run: 4.118228 | Priority 1
+Process AT  | Arrival Time: 82.43734 | Expected Run: 8.287114 | Priority 1
+Process AU  | Arrival Time: 88.05956 | Expected Run: 7.2653604 | Priority 1
+Process AV  | Arrival Time: 90.665886 | Expected Run: 4.8683443 | Priority 3
+Process AW  | Arrival Time: 90.80899 | Expected Run: 9.348131 | Priority 1
+Process AX  | Arrival Time: 95.11891 | Expected Run: 1.8286955 | Priority 3
+
+First Come First Served Algorithm
+
+Timechart:
+- A A A A A A A A A 
+B B B B B C C D D D 
+D D E E F F F F F F 
+F G G G G G G G G G 
+G H H H H I I J J J 
+J J J J K K K K K K 
+K K K K L L L L L L 
+L L L L M M M M M M 
+N N O O P P Q Q Q Q 
+Q Q Q R S S S S S 
+S 
+
+Average Turnaround Time: 40.052475
+Average Waiting Time: 34.88581
+Average Response Time: 5.1666665
+Total Throughput: 18.0
+
+
+Shortest Job First Algorithm
+
+Timechart:
+A A A A A A A A A B B B B B C C D D D D D E E F F F F F F F G G G G G G G G G G H H H H I I J J J J J J J K K K K K K K K K K L L L L L L L L L L M M M M M M N N O O P P Q Q Q Q Q Q Q R S S S S S S 
+
+Average Turnaround Time: 39.052475
+Average Waiting Time: 34.88581
+Average Response Time: 4.1666665
+Total Throughput: 18.0
+
+
+Shortest Remaining Time Algorithm
+
+Timechart:
+- A B B B E E C C H 
+H I I H H B B D D D 
+D D M M M N N M O P 
+P R O M T T W W T M 
+X Y Y X X AB AC AD AE AE 
+AG AG AC AA AA AA AF AF AF Z 
+Z AK Z Z AH AH AH AH AH AH 
+AN AN AN AP AN AQ AQ AI AI AI 
+AR AR AR AS AS AS AS AS AI AI 
+AI AV AV AV AV AV AX AX AJ AJ 
+AJ AJ AJ AJ 
+
+Average Turnaround Time: 8.880897
+Average Waiting Time: 4.527955
+Average Response Time: 4.352941
+Total Throughput: 34.0
+
+
+Round Robin Algorithm
+
+Timechart:
+time f 15 time s 7 is 8
+time f 18 time s 9 is 9
+time f 30 time s 3 is 27
+time f 31 time s 19 is 12
+time f 45 time s 44 is 1
+time f 56 time s 36 is 20
+time f 57 time s 15 is 42
+time f 61 time s 40 is 21
+time f 63 time s 8 is 55
+time f 64 time s 42 is 22
+time f 68 time s 67 is 1
+time f 72 time s 71 is 1
+time f 76 time s 1 is 75
+time f 85 time s 54 is 31
+time f 90 time s 89 is 1
+time f 91 time s 61 is 30
+time f 97 time s 68 is 29
+time f 105 time s 77 is 28
+time f 115 time s 59 is 56
+time f 119 time s 66 is 53
+time f 124 time s 72 is 52
+time f 127 time s 49 is 78
+time f 136 time s 27 is 109
+time f 141 time s 11 is 130
+time f 144 time s 73 is 71
+time f 154 time s 64 is 90
+time f 158 time s 98 is 60
+time f 163 time s 23 is 140
+time f 169 time s 43 is 126
+time f 172 time s 46 is 126
+time f 173 time s 12 is 161
+time f 175 time s 79 is 96
+time f 180 time s 86 is 94
+time f 185 time s 24 is 161
+time f 186 time s 83 is 103
+time f 187 time s 26 is 161
+time f 190 time s 50 is 140
+time f 194 time s 52 is 142
+time f 195 time s 93 is 102
+time f 196 time s 95 is 101
+- A A B A B A C D E 
+B F G A C H D E B I 
+F G A J K H L M D B 
+I F G A J K N H L M 
+O D P Q R F S G A T 
+U J V K W N H L M X 
+O Y D P Z Q AA AB AC F 
+S AD AE AF G A T AG U AH 
+J V K AI W L AJ M X AK 
+Y Z Q AL AA AM AC F AN S 
+AE AF G T AG U AH J V K 
+AI L AJ M X Z Q AL AA AM 
+F AN S AE AF G T U AH J 
+V K AI L AJ M Z Q AL AM 
+F AN S AF G U AH J V K 
+AI L AJ Z Q AL AM AN S G 
+U AH J V K AI L AJ Q AL 
+AM S G U AH V K AI L AJ 
+AL AM U V K AI L AL AM U 
+V AL AM V AL AM 
+
+Average Turnaround Time: 85.75167
+Average Waiting Time: 16.626665
+Average Response Time: 69.125
+Total Throughput: 40.0
+
+
+Highest Priority First (Non-Preemptive)
+
+Timechart:
+A A A A A A A A A B B B B B C C M M M M M M H H H H N N Q Q Q Q Q Q Q W W I I X X X K K K K K K K K K K AA AA AA AC AC O O P P R T T T AL AL AL AL AL AL AL AL AL AM AM AM AM AM AM AM AM AM AO AO AO AO AO AO AO AO AO AO AP AS AS AS AS AS 
+
+Average Turnaround Time: 17.138426
+Average Waiting Time: 13.638425
+Average Response Time: 3.5
+Total Throughput: 22.0
+
+
+Highest Priority First (Preemptive)
+
+Timechart:
+A B B B B B C H C H I H I H K M M M M M M K K K N N K O Q Q Q Q Q Q Q W W K O X X X K P AA AC AA AC AA K P K R K T V Z AB T V Z AE AF AH AI AL AM AL AM AL AM AO AP AL AM AO AL AM AO AL AM AO AS AT AL AM AO AS AT AU AW AL AM AO AS AT AU AW AL 
+
+Average Turnaround Time: 10.486859
+Average Waiting Time: 3.5424154
+Average Response Time: 6.9444447
+Total Throughput: 18.0
+
+
+Highest Priority First (Non-Preemptive, Aging)
+
+Timechart:
+A A A A A A A A A B B B B B C C M M M M M M H H H H I I K K K K K K K K K K D D D D D E E G G G G G G G G G G N N Q Q Q Q Q Q Q J J J J J J J F F F F F F F W W O O P P L L L L L L L L L L X X X AA AA 
+
+Average Turnaround Time: 37.70948
+Average Waiting Time: 33.604218
+Average Response Time: 4.105263
+Total Throughput: 19.0
+
+
+Highest Priority First (Preemptive, Aging)
+
+Timechart:
+A B B B B B C H C H I H I H D M M M M M M E G K E G K G K G K G K G K G K G K G K G K A F N A F N A F J Q A F J Q A F J Q A F J Q A F A D J Q D J Q D J D Q O O L P W L P L W L R L X L X L X L T V L 
+
+Average Turnaround Time: 38.012646
+Average Waiting Time: 23.538963
+Average Response Time: 14.473684
+Total Throughput: 19.0
+
+
+
+Simulation #4
+
+Processes: 
+Process A  | Arrival Time: 0.71952516 | Expected Run: 2.098575 | Priority 1
+Process B  | Arrival Time: 1.6396723 | Expected Run: 2.5465176 | Priority 1
+Process C  | Arrival Time: 2.4565425 | Expected Run: 7.0225916 | Priority 4
+Process D  | Arrival Time: 5.0905595 | Expected Run: 3.533468 | Priority 2
+Process E  | Arrival Time: 5.6660614 | Expected Run: 4.5583234 | Priority 3
+Process F  | Arrival Time: 7.504484 | Expected Run: 6.367827 | Priority 4
+Process G  | Arrival Time: 10.649142 | Expected Run: 9.801188 | Priority 3
+Process H  | Arrival Time: 11.585174 | Expected Run: 1.0037066 | Priority 2
+Process I  | Arrival Time: 14.665017 | Expected Run: 6.840327 | Priority 4
+Process J  | Arrival Time: 18.679613 | Expected Run: 3.328378 | Priority 4
+Process K  | Arrival Time: 18.709457 | Expected Run: 4.5659785 | Priority 3
+Process L  | Arrival Time: 19.545969 | Expected Run: 1.9702669 | Priority 3
+Process M  | Arrival Time: 20.11331 | Expected Run: 8.34245 | Priority 2
+Process N  | Arrival Time: 21.561193 | Expected Run: 2.9160461 | Priority 2
+Process O  | Arrival Time: 26.51524 | Expected Run: 5.7881083 | Priority 2
+Process P  | Arrival Time: 28.849903 | Expected Run: 9.32992 | Priority 3
+Process Q  | Arrival Time: 29.76069 | Expected Run: 3.7712731 | Priority 2
+Process R  | Arrival Time: 30.1288 | Expected Run: 6.409544 | Priority 3
+Process S  | Arrival Time: 33.176056 | Expected Run: 1.8058666 | Priority 4
+Process T  | Arrival Time: 33.468464 | Expected Run: 2.539183 | Priority 4
+Process U  | Arrival Time: 35.68811 | Expected Run: 4.5915504 | Priority 1
+Process V  | Arrival Time: 37.35179 | Expected Run: 5.676162 | Priority 4
+Process W  | Arrival Time: 37.773678 | Expected Run: 2.0668783 | Priority 2
+Process X  | Arrival Time: 41.00273 | Expected Run: 1.5957669 | Priority 4
+Process Y  | Arrival Time: 41.061447 | Expected Run: 6.3045545 | Priority 1
+Process Z  | Arrival Time: 43.020542 | Expected Run: 1.7185723 | Priority 3
+Process AA  | Arrival Time: 46.1517 | Expected Run: 3.8973362 | Priority 4
+Process AB  | Arrival Time: 47.544025 | Expected Run: 5.662014 | Priority 3
+Process AC  | Arrival Time: 48.34603 | Expected Run: 1.895274 | Priority 3
+Process AD  | Arrival Time: 51.51661 | Expected Run: 4.3004317 | Priority 4
+Process AE  | Arrival Time: 53.408604 | Expected Run: 6.664243 | Priority 4
+Process AF  | Arrival Time: 53.587234 | Expected Run: 8.688669 | Priority 1
+Process AG  | Arrival Time: 55.215492 | Expected Run: 5.760395 | Priority 4
+Process AH  | Arrival Time: 58.38299 | Expected Run: 0.14262038 | Priority 4
+Process AI  | Arrival Time: 61.445282 | Expected Run: 6.9022474 | Priority 2
+Process AJ  | Arrival Time: 62.69403 | Expected Run: 4.921668 | Priority 4
+Process AK  | Arrival Time: 68.85694 | Expected Run: 7.7772737 | Priority 3
+Process AL  | Arrival Time: 72.33034 | Expected Run: 9.195269 | Priority 4
+Process AM  | Arrival Time: 72.93412 | Expected Run: 6.799772 | Priority 4
+Process AN  | Arrival Time: 75.619705 | Expected Run: 0.13346902 | Priority 3
+Process AO  | Arrival Time: 76.113945 | Expected Run: 5.87176 | Priority 4
+Process AP  | Arrival Time: 78.10889 | Expected Run: 3.660444 | Priority 4
+Process AQ  | Arrival Time: 79.954735 | Expected Run: 7.6162043 | Priority 4
+Process AR  | Arrival Time: 80.52527 | Expected Run: 3.4203165 | Priority 3
+Process AS  | Arrival Time: 82.064064 | Expected Run: 0.6889169 | Priority 4
+Process AT  | Arrival Time: 84.96644 | Expected Run: 4.5484324 | Priority 2
+Process AU  | Arrival Time: 85.02764 | Expected Run: 3.567675 | Priority 4
+Process AV  | Arrival Time: 85.62429 | Expected Run: 5.0908046 | Priority 2
+Process AW  | Arrival Time: 92.8715 | Expected Run: 1.7145474 | Priority 3
+Process AX  | Arrival Time: 96.23029 | Expected Run: 6.430396 | Priority 2
+
+First Come First Served Algorithm
+
+Timechart:
+- A A A B B B C C C 
+C C C C C D D D D E 
+E E E E F F F F F F 
+F G G G G G G G G G 
+G H H I I I I I I I 
+J J J J K K K K K L 
+L M M M M M M M M M 
+N N N O O O O O O P 
+P P P P P P P P P Q 
+Q Q Q R R R R R R R 
+
+Average Turnaround Time: 33.428734
+Average Waiting Time: 28.016968
+Average Response Time: 5.4117646
+Total Throughput: 17.0
+
+
+Shortest Job First Algorithm
+
+Timechart:
+A A A B B B C C C C C C C C D D D D E E E E E F F F F F F F G G G G G G G G G G H H I I I I I I I J J J J K K K K K L L M M M M M M M M M N N N O O O O O O P P P P P P P P P P Q Q Q Q R R R R R R R 
+
+Average Turnaround Time: 34.453316
+Average Waiting Time: 29.953316
+Average Response Time: 4.5
+Total Throughput: 18.0
+
+
+Shortest Remaining Time Algorithm
+
+Timechart:
+- A A A B B B D D D 
+D E H H E E E E F J 
+L L N N N J J J K K 
+Q Q Q Q S S T T W W 
+W T X X Z Z K AA AA AC 
+AC AA AA AD AD AD AD AD K AH 
+K U U U U U AJ AJ AJ AJ 
+AJ AB AB AB AB AB AN AB V AP 
+AP AR AR AS AR AR AU AU AU AU 
+AP AP AT AW AW AT AT AT AT AV 
+AV AV AV AV AV V V V V V 
+
+Average Turnaround Time: 10.777986
+Average Waiting Time: 4.7457266
+Average Response Time: 6.032258
+Total Throughput: 31.0
+
+
+Round Robin Algorithm
+
+Timechart:
+time f 5 time s 1 is 4
+time f 11 time s 3 is 8
+time f 25 time s 17 is 8
+time f 29 time s 8 is 21
+time f 42 time s 29 is 13
+time f 44 time s 9 is 35
+time f 69 time s 33 is 36
+time f 71 time s 48 is 23
+time f 75 time s 5 is 70
+time f 81 time s 26 is 55
+time f 87 time s 86 is 1
+time f 89 time s 60 is 29
+time f 94 time s 63 is 31
+time f 101 time s 71 is 30
+time f 102 time s 49 is 53
+time f 117 time s 42 is 75
+time f 128 time s 12 is 116
+time f 133 time s 56 is 77
+time f 135 time s 27 is 108
+time f 142 time s 21 is 121
+time f 153 time s 38 is 115
+time f 160 time s 67 is 93
+time f 164 time s 75 is 89
+time f 165 time s 52 is 113
+time f 173 time s 92 is 81
+time f 177 time s 69 is 108
+time f 181 time s 55 is 126
+time f 182 time s 82 is 100
+time f 184 time s 61 is 123
+time f 186 time s 44 is 142
+time f 187 time s 31 is 156
+time f 189 time s 15 is 174
+time f 190 time s 78 is 112
+time f 193 time s 90 is 103
+time f 197 time s 98 is 99
+time f 199 time s 40 is 159
+time f 200 time s 79 is 121
+- A A B A C B C D E 
+B C F D E G C H F D 
+E I G C H F J K D L 
+E M I N G C F J O K 
+P L Q E R M I N S T 
+G C U F J V W O K P 
+X Y Q Z R M I AA N AB 
+S AC T G C AD U F AE AF 
+J V AG W O K AH P X Y 
+AI Q AJ Z R M I AA AK AB 
+AC T G AD U F AE AF V AG 
+W O K P Y AI Q AJ R M 
+I AA AK AB G AD U F AE AF 
+V AG W O K P Y AI AJ R 
+M I AA AK AB G AD U AE AF 
+V AG O P Y AI AJ R M AA 
+AK AB G AD U AE AF V AG P 
+Y AI AJ R M AK AB G AE AF 
+V AG P Y AI R M AK G AE 
+AF P AI AK AF P AK AF P AF 
+
+Average Turnaround Time: 93.95858
+Average Waiting Time: 14.823457
+Average Response Time: 79.13513
+Total Throughput: 37.0
+
+
+Highest Priority First (Non-Preemptive)
+
+Timechart:
+A A A B B B D D D D E E E E E H H G G G G G G G G G G M M M M M M M M M U U U U U Y Y Y Y Y Y Y N N N O O O O O O AF AF AF AF AF AF AF AF AF Q Q Q Q W W W AI AI AI AI AI AI AI K K K K K AT AT AT AT AT AV AV AV AV AV AV L L AX 
+
+Average Turnaround Time: 20.910395
+Average Waiting Time: 16.752502
+Average Response Time: 4.1578946
+Total Throughput: 19.0
+
+
+Highest Priority First (Preemptive)
+
+Timechart:
+A B A B A B D D D D E H H E G E G E G K M N M N M N M O M O Q M O Q M U U U U U M Y Y Y Y Y Y Y M O Q W O AF AF AF AF AF AF AF AF AF O Q W AI W AI AI AI AI AI AI E G K L P R Z AB AC AK AN AT AV AT AV AT AV AT AV AT AV AV G AX AX AX 
+
+Average Turnaround Time: 16.093082
+Average Waiting Time: 2.446023
+Average Response Time: 13.6470585
+Total Throughput: 17.0
+
+
+Highest Priority First (Non-Preemptive, Aging)
+
+Timechart:
+A A A B B B D D D D E E E E E H H G G G G G G G G G G C C C C C C C C U U U U U M M M M M M M M M N N N O O O O O O F F F F F F F Y Y Y Y Y Y Y Q Q Q Q K K K K K L L I I I I I I I W W W AF AF AF AF AF AF 
+
+Average Turnaround Time: 31.18304
+Average Waiting Time: 27.016373
+Average Response Time: 4.1666665
+Total Throughput: 18.0
+
+
+Highest Priority First (Preemptive, Aging)
+
+Timechart:
+A B A B A B D D D D E H H E C G C G C G C G C G C F M F M F M F M F M F M F M M M E N E N E N K L O K L K L K L K C O C O O O O I U I U I U I U I U I Q I Q Q Q G G G G G J P Y J P Y J P Y J P Y P Y 
+
+Average Turnaround Time: 35.59781
+Average Waiting Time: 21.492544
+Average Response Time: 14.105263
+Total Throughput: 19.0
+
+
+
+Simulation #5
+
+Processes: 
+Process A  | Arrival Time: 1.4743208 | Expected Run: 3.4011817 | Priority 4
+Process B  | Arrival Time: 2.4070616 | Expected Run: 3.2360058 | Priority 3
+Process C  | Arrival Time: 2.7438257 | Expected Run: 0.7100818 | Priority 1
+Process D  | Arrival Time: 2.8022897 | Expected Run: 1.9253519 | Priority 4
+Process E  | Arrival Time: 8.178272 | Expected Run: 8.357732 | Priority 4
+Process F  | Arrival Time: 9.724556 | Expected Run: 6.0066457 | Priority 4
+Process G  | Arrival Time: 11.3118515 | Expected Run: 5.942427 | Priority 3
+Process H  | Arrival Time: 15.893273 | Expected Run: 9.946901 | Priority 2
+Process I  | Arrival Time: 18.711664 | Expected Run: 4.8426514 | Priority 4
+Process J  | Arrival Time: 20.038773 | Expected Run: 4.250029 | Priority 4
+Process K  | Arrival Time: 20.049652 | Expected Run: 0.43765965 | Priority 1
+Process L  | Arrival Time: 23.083588 | Expected Run: 6.9004116 | Priority 3
+Process M  | Arrival Time: 26.72078 | Expected Run: 1.5475641 | Priority 4
+Process N  | Arrival Time: 27.110794 | Expected Run: 7.057675 | Priority 4
+Process O  | Arrival Time: 29.268877 | Expected Run: 6.468516 | Priority 4
+Process P  | Arrival Time: 32.12446 | Expected Run: 4.5541735 | Priority 3
+Process Q  | Arrival Time: 33.411232 | Expected Run: 8.385836 | Priority 2
+Process R  | Arrival Time: 35.100662 | Expected Run: 3.088254 | Priority 1
+Process S  | Arrival Time: 37.77602 | Expected Run: 7.8537874 | Priority 2
+Process T  | Arrival Time: 43.498398 | Expected Run: 4.195634 | Priority 1
+Process U  | Arrival Time: 44.020103 | Expected Run: 5.144209 | Priority 3
+Process V  | Arrival Time: 44.69515 | Expected Run: 0.4390595 | Priority 3
+Process W  | Arrival Time: 45.332466 | Expected Run: 1.5230955 | Priority 3
+Process X  | Arrival Time: 48.058582 | Expected Run: 4.271834 | Priority 2
+Process Y  | Arrival Time: 50.67303 | Expected Run: 0.8643544 | Priority 1
+Process Z  | Arrival Time: 56.84291 | Expected Run: 6.346439 | Priority 2
+Process AA  | Arrival Time: 57.266815 | Expected Run: 9.838376 | Priority 1
+Process AB  | Arrival Time: 57.394356 | Expected Run: 0.1777603 | Priority 3
+Process AC  | Arrival Time: 65.81068 | Expected Run: 0.69552827 | Priority 2
+Process AD  | Arrival Time: 67.72025 | Expected Run: 5.8734503 | Priority 4
+Process AE  | Arrival Time: 69.05617 | Expected Run: 3.2830346 | Priority 2
+Process AF  | Arrival Time: 69.073524 | Expected Run: 2.8498964 | Priority 4
+Process AG  | Arrival Time: 72.321465 | Expected Run: 0.9737583 | Priority 2
+Process AH  | Arrival Time: 73.017365 | Expected Run: 1.3835337 | Priority 3
+Process AI  | Arrival Time: 74.891045 | Expected Run: 1.1990466 | Priority 4
+Process AJ  | Arrival Time: 75.995285 | Expected Run: 8.044219 | Priority 2
+Process AK  | Arrival Time: 78.95729 | Expected Run: 7.453124 | Priority 4
+Process AL  | Arrival Time: 79.04092 | Expected Run: 3.3613448 | Priority 3
+Process AM  | Arrival Time: 79.15382 | Expected Run: 7.5405006 | Priority 3
+Process AN  | Arrival Time: 79.90976 | Expected Run: 7.6519914 | Priority 4
+Process AO  | Arrival Time: 83.06927 | Expected Run: 4.678008 | Priority 3
+Process AP  | Arrival Time: 84.93402 | Expected Run: 5.648962 | Priority 2
+Process AQ  | Arrival Time: 87.71952 | Expected Run: 2.2978158 | Priority 4
+Process AR  | Arrival Time: 89.280975 | Expected Run: 0.7527644 | Priority 3
+Process AS  | Arrival Time: 89.86893 | Expected Run: 5.5816917 | Priority 4
+Process AT  | Arrival Time: 90.19289 | Expected Run: 7.3301826 | Priority 4
+Process AU  | Arrival Time: 91.497795 | Expected Run: 0.28151816 | Priority 3
+Process AV  | Arrival Time: 92.489174 | Expected Run: 4.9456577 | Priority 1
+Process AW  | Arrival Time: 93.55249 | Expected Run: 8.280467 | Priority 2
+Process AX  | Arrival Time: 98.47847 | Expected Run: 8.826858 | Priority 2
+
+First Come First Served Algorithm
+
+Timechart:
+- - A A A A B B B B 
+C D D E E E E E E E 
+E E F F F F F F F G 
+G G G G G H H H H H 
+H H H H H I I I I I 
+J J J J J K L L L L 
+L L L M M N N N N N 
+N N N O O O O O O O 
+P P P P P Q Q Q Q Q 
+Q Q Q Q R R R R S S 
+
+Average Turnaround Time: 31.658007
+Average Waiting Time: 26.324669
+Average Response Time: 5.3333335
+Total Throughput: 18.0
+
+
+Shortest Job First Algorithm
+
+Timechart:
+A A A A B B B B C D D E E E E E E E E E F F F F F F F G G G G G G H H H H H H H H H H I I I I I J J J J J K L L L L L L L M M N N N N N N N N O O O O O O O P P P P P Q Q Q Q Q Q Q Q Q R R R R S S 
+
+Average Turnaround Time: 30.658007
+Average Waiting Time: 26.324669
+Average Response Time: 4.3333335
+Total Throughput: 18.0
+
+
+Shortest Remaining Time Algorithm
+
+Timechart:
+- - A C D D B B B B 
+A A A G G G G G G I 
+I K J J J J J M M I 
+I I F P P P R R R R 
+P P F F T V W W T T 
+T Y T X X X X X AB U 
+U U U U U F AC F AD AD 
+AF AF AF AG AH AI AI AH AE AE 
+AE AE AL AL AL AL AO AO AQ AQ 
+AR AQ AU AO AO AO AV AV AV AV 
+AV 
+
+Average Turnaround Time: 6.019157
+Average Waiting Time: 1.9191562
+Average Response Time: 4.1
+Total Throughput: 30.0
+
+
+Round Robin Algorithm
+
+Timechart:
+time f 6 time s 5 is 1
+time f 10 time s 6 is 4
+time f 11 time s 2 is 9
+time f 15 time s 4 is 11
+time f 28 time s 27 is 1
+time f 48 time s 35 is 13
+time f 53 time s 15 is 38
+time f 62 time s 61 is 1
+time f 69 time s 13 is 56
+time f 70 time s 69 is 1
+time f 73 time s 23 is 50
+time f 79 time s 78 is 1
+time f 84 time s 63 is 21
+time f 85 time s 26 is 59
+time f 87 time s 86 is 1
+time f 95 time s 94 is 1
+time f 116 time s 96 is 20
+time f 118 time s 98 is 20
+time f 123 time s 12 is 111
+time f 126 time s 48 is 78
+time f 137 time s 43 is 94
+time f 142 time s 66 is 76
+time f 146 time s 91 is 55
+time f 149 time s 31 is 118
+time f 150 time s 19 is 131
+time f 153 time s 58 is 95
+time f 154 time s 60 is 94
+time f 158 time s 90 is 68
+time f 160 time s 39 is 121
+time f 164 time s 36 is 128
+time f 165 time s 89 is 76
+time f 169 time s 45 is 124
+time f 170 time s 51 is 119
+time f 171 time s 75 is 96
+time f 174 time s 77 is 97
+- - A A B C D A B D 
+A B E F B G E F G H 
+E F G I H E J K F G 
+I L H E J M N F G O 
+I L H P E Q J M R N 
+F S G O I L H P T E 
+U V Q W J R X N F Y 
+S O I L H Z P AA AB T 
+E U Q W J R AC X N AD 
+AE AF S O AG L AH H AI Z 
+P AA T E U Q R X N AD 
+AE AF S O L AH H AI Z P 
+AA T E U Q R X N AD AE 
+AF S O L H Z P AA T U 
+Q X N AD AE AF S O L H 
+Z AA T U Q N AD AE S O 
+Z AA Q N AD S Z AA Q S 
+Z AA AA AA 
+
+Average Turnaround Time: 69.2113
+Average Waiting Time: 12.382733
+Average Response Time: 56.82857
+Total Throughput: 35.0
+
+
+Highest Priority First (Non-Preemptive)
+
+Timechart:
+A A A A C B B B B D D G G G G G G H H H H H H H H H H K L L L L L L L R R R R Q Q Q Q Q Q Q Q Q T T T T T Y S S S S S S S S AA AA AA AA AA AA AA AA AA AA X X X X X Z Z Z Z Z Z Z AC AE AE AE AE AG AJ AJ AJ AJ AJ AJ AJ AJ 
+
+Average Turnaround Time: 13.600957
+Average Waiting Time: 9.864115
+Average Response Time: 3.7368422
+Total Throughput: 19.0
+
+
+Highest Priority First (Preemptive)
+
+Timechart:
+A C B B B B A D E F G G G G H H H H H K H H H H H G L G L L L P Q Q R R R R Q S Q S T T T T T Q S Y Q S X Q S X AA AA AA AA AA AA AA AA AA AA Q S X Z AC Q S X Z AE AG S X Z AE AJ Z AE AJ AP Z AE Z AJ AP AV AV AV AV AV Z AJ 
+
+Average Turnaround Time: 14.252306
+Average Waiting Time: 2.9581883
+Average Response Time: 11.294118
+Total Throughput: 17.0
+
+
+Highest Priority First (Non-Preemptive, Aging)
+
+Timechart:
+A A A A C B B B B D D G G G G G G H H H H H H H H H H K E E E E E E E E E R R R R F F F F F F F T T T T T Q Q Q Q Q Q Q Q Q S S S S S S S S L L L L L L L I I I I I Y AA AA AA AA AA AA AA AA AA AA X X X X X 
+
+Average Turnaround Time: 24.490828
+Average Waiting Time: 20.046383
+Average Response Time: 4.4444447
+Total Throughput: 18.0
+
+
+Highest Priority First (Preemptive, Aging)
+
+Timechart:
+A C B B B B A D E D G G G G H H H H H K H H H H H A D A G G F F F F F F F E R E R E R E R E L E L E L E L L L L I J Q T I J Q T I J Q T I J Q T I J Q T Q S Q S Q S Q S S S S S P P P P P M N O Y M 
+
+Average Turnaround Time: 32.9237
+Average Waiting Time: 20.3737
+Average Response Time: 12.55
+Total Throughput: 20.0
+
+
+
